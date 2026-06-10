@@ -1,2 +1,7 @@
 .claude/settings.local.json
 .worktrees/
+
+# Environment files with secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
